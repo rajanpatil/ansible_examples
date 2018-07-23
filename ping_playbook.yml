@@ -1,0 +1,8 @@
+---
+- name: ping playbook example
+  hosts: vagrantboxes
+  become: yes
+  tasks:
+  - name: ping task
+    ping: 
+
